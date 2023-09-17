@@ -52,8 +52,8 @@ function App() {
       <Client />
       {/* <Badge /> */}
       <Team />
-      <Contact contactDetails={setting.contactDetails} socialLinks={setting.socialLinks}/>
-      <Footer footerName={setting.footerName}/>
+      <Contact contactDetails={setting?.contactDetails} socialLinks={setting?.socialLinks}/>
+      <Footer footerName={setting?.footerName}/>
     </div>
   );
 }
